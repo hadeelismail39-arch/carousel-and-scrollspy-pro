@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap crousel and scrollspy</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  
+    <div class="container">
+        <h2>Carousel example</h2>
+        <div id="myCarousel" class="carousel-slide" date-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="moonlit-night-sky-stockcake (1).webp" alt="Image 1">
+                </div>
+                <div class="item">
+                    <img src="images.jpg" alt="Image 2">
+                </div>
+                <div class="item">
+                    <img src="c4ecf0e65db2875dd04874a594857ecc.jpg" alt="Image 3">
+                </div>
+
+
+                <a class="left carousel-control" href="#myCarousel"data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel"data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+ <link rel="stylesheet"
+ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+   </script>
+  <style>
+    body {
+        position:relative;
+    }
+    p {
+        font-size: 18px;
+    }
+    #section1 {padding-top:50px;height:500px;color:white;
+    background-color: purple;}
+    #section2 {padding-top: 50px;height : 500px;color: rgb(50, 191, 50);
+        background-color: black}
+        </style>
+
+        <body date-spy="scroll" data-target=".navbar" data-offest="50">
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-hader">
+                    <button type="button" class="navbar-toggle"
+                    data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Space</a>
+                </div>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#section1">Section 1</a></li>
+                        <li><a href="#section2">Section 2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+            
+        <div id="section1" class="container-fluid">
+            <h1>Section 1</h1>
+            <h3>Space</h3>
+            <h5>Outer space is the vast, nearly perfect vacuum starting about 100 km (
+ miles) above Earth's sea level, known as the Kármán line.
+  While appearing empty, it contains low-density matter like gas,
+   dust, and cosmic rays, along with stars, planets, and galaxies.
+    Space is silent, dark, and unimaginably large, expanding since the 
+    Big Bang 13.8 billion years ago. </h5>
+
+    <p>Scroll this section.</p>
+        
+    </div>
+</body>
+</html>
+
+
+
